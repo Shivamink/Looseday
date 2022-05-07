@@ -1,0 +1,682 @@
+@font-face {
+  font-family: "SFPRODISPLAY";
+  src: local("SFPRODISPLAY"),
+    url(../../assets/fonts/SFPRODISPLAYBOLD.OTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAYBOLD";
+  src: local("SFPRODISPLAYBOLD"),
+    url(../../assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAYREGULAR";
+  src: local("SFPRODISPLAYREGULAR"),
+    url(../../assets/fonts/SFPRODISPLAYREGULAR.OTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAYMEDIUM";
+  src: local("SFPRODISPLAYMEDIUM"),
+    url(../../assets/fonts/SFPRODISPLAYMEDIUM.OTF) format("truetype");
+}
+
+/* #home-video {
+  width: 100%;
+} */
+
+/* #Information {
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+#info-title {
+  color: white;
+  padding-left: 3vh;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  font-family: "SFPRODISPLAY";
+}
+
+#info-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info-parah {
+  color: white;
+  padding-left: 3vh;
+  padding-bottom: 3vh;
+  padding-right: 5vh;
+  font-family: "SFPRODISPLAYMEDIUM";
+}
+
+#info-video {
+  width: 40vw;
+  height: 40vh;
+  padding-left: 3vh;
+}
+
+#infocard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1vh;
+}
+
+#info-card1 {
+  width: 40vw;
+  height: 25vh;
+  margin: 15px;
+  background-color: #1a1a1a;
+}
+
+#info-card2 {
+  width: 40vw;
+  height: 25vh;
+  margin: 15px;
+  background-color: #1a1a1a;
+}
+
+#info-card3 {
+  width: 40vw;
+  height: 25vh;
+  margin: 15px;
+  background-color: #1a1a1a;
+}
+
+#info-card4 {
+  width: 40vw;
+  height: 25vh;
+  margin: 15px;
+  background-color: #1a1a1a;
+}
+
+#info-cardtitle {
+  color: white;
+  font-family: "SFPRODISPLAY";
+  font-size: 30px;
+  padding-top: 2vh;
+  padding-left: 2vw;
+}
+
+#info-cardparah {
+  color: #666666;
+  padding-left: 2vw;
+  width: 38vw;
+  font-family: "SFPRODISPLAYREGULAR";
+}
+
+#mobileset2 {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  #info-content {
+    flex-direction: column;
+  }
+  #info-parah {
+    padding-bottom: 0;
+  }
+  #info-video {
+    height: 25vh;
+    width: 90vw;
+    padding-left: 0;
+  }
+  .mobileset {
+    display: none;
+  }
+  #mobileset2 {
+    display: block;
+  }
+  #info-card1 {
+    width: 90vw;
+  }
+  #info-card2 {
+    width: 90vw;
+    height: 33vh;
+  }
+  #info-cardparah {
+    width: 88vw;
+  }
+} */
+
+/* #Ticket {
+  background-color: black;
+}
+
+#ticket-title {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  text-align: center;
+  color: white;
+}
+
+#ticket-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticketicons {
+  color: white;
+  padding-left: 20px;
+}
+
+#ticket-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7vh;
+}
+
+#ticketcard-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+#ticket-sell {
+  width: 45vw;
+  height: 33vh;
+  margin: 15px;
+  border-radius: 9px;
+  background-color: #1a1a1a;
+}
+
+#ticket-login {
+  width: 45vw;
+  height: 33vh;
+  margin: 15px;
+  border-radius: 9px;
+  background-color: #1a1a1a;
+}
+
+#ticketsignup-title {
+  color: white;
+  font-family: "SFPRODISPLAY";
+}
+
+#ticket-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#ticketsignup-parah {
+  color: #666666;
+  text-align: center;
+}
+
+#ticketbutton {
+  margin-left: 3vw;
+  width: 260px;
+  height: 48px;
+  background-color: #3592ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+#ticket-innersell {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ticketsell-title {
+  color: #666666;
+  font-size: 20px;
+}
+
+#ticketsell-timer {
+  color: white;
+  font-size: 55px;
+}
+
+#ticketsell-reminder {
+  color: white;
+  padding-top: 3vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  #ticket-content {
+    flex-direction: column;
+  }
+  #ticketcard-content {
+    flex-direction: column;
+  }
+  #ticket-sell {
+    width: 95vw;
+    height: 10%;
+    margin: 10px;
+  }
+  #ticket-login {
+    width: 95vw;
+    height: 10%;
+    margin: 10px;
+  }
+  #ticket-social {
+    padding-bottom: 4vh;
+  }
+} */
+/*
+#Amenities {
+  background-color: black;
+}
+
+#amenities-title {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  padding-top: 10vh;
+  font-family: "SFPRODISPLAY";
+}
+
+#card-group1 {
+  padding-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+
+#card-group2 {
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+
+.amenities-card {
+  width: 28vw;
+  border-radius: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
+  background-color: #292929;
+}
+
+.amenities-cardimg {
+  width: 100%;
+  height: 60%;
+}
+
+.amenities-cardtitle {
+  color: white;
+  font-family: "SFPRODISPLAYBOLD";
+  font-size: 4vh;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.amenities-cardparah {
+  color: #666666;
+  margin-left: 20px;
+  margin-right: 25px;
+  font-size: 2.2vh;
+  font-family: "SFPRODISPLAYREGULAR";
+}
+
+@media only screen and (max-width: 1200px) {
+  #amenities-title {
+    font-size: 24px;
+  }
+  #card-group1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  #card-group2 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+  }
+  .amenities-card {
+    width: 88%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+} */
+
+/* #Lastyear {
+  background-color: #1a1a1a;
+}
+
+#Lastyear-mobile {
+  display: none;
+  background-color: #1a1a1a;
+}
+
+#lastyear-container {
+  padding-left: 4vw;
+  display: flex;
+}
+
+#lastyear-title {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  color: white;
+  font-weight: 800;
+  font-family: "SFPRODISPLAYBOLD";
+}
+
+#viewmore {
+  margin-top: 12vh;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+  font-size: medium;
+  font-family: "SFPRODISPLAYBOLD";
+  color: #3592ff;
+}
+
+#lastyear-imagecontainer {
+  display: flex;
+}
+
+#party1 {
+  width: 30vw;
+  margin-left: 2vw;
+  padding: 10px;
+}
+
+#subparty {
+  display: flex;
+  width: 65vw;
+  flex-wrap: wrap;
+}
+
+#party2 {
+  width: 31.2vw;
+  height: 40vh;
+  padding: 10px;
+}
+
+#party3 {
+  width: 31.2vw;
+  height: 40vh;
+  padding: 10px;
+}
+
+#party4 {
+  width: 21vw;
+  padding: 10px;
+}
+
+#party5 {
+  width: 21vw;
+  padding: 10px;
+}
+
+#party6 {
+  width: 21vw;
+  padding: 10px;
+}
+
+#lastyear-imagecontainer {
+  padding-bottom: 7vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  #Lastyear {
+    display: none;
+  }
+  #Lastyear-mobile {
+    display: block;
+  }
+  #lastyear-title {
+    margin-top: 7vh;
+  }
+  #viewmore {
+    margin-top: 8vh;
+  }
+
+  #party1mobile {
+    width: 45vw;
+    height: 92%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+  }
+  #party2mobile {
+    width: 95vw;
+    margin: 10px;
+  }
+  #party3mobile {
+    width: 44vw;
+    margin-left: 2vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+  }
+  #party4mobile {
+    width: 44vw;
+    margin-left: 2vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+  }
+  #subparty-mobile {
+    display: flex;
+  }
+  #lastyear-mobilecontainer {
+    padding-bottom: 6vh;
+  }
+} */
+
+/* #Vendor {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#vendor-image {
+  width: 40vw;
+  height: 45vh;
+  margin-left: 6vw;
+}
+
+#vendor-content {
+  margin-right: 16vw;
+}
+
+#vendor-title {
+  color: white;
+  line-height: 1.5;
+  font-weight: 900;
+  font-family: "SFPRODISPLAY";
+  padding-bottom: 1vh;
+}
+
+#vendor-parah {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+  font-weight: 500;
+  line-height: 18px;
+  width: 30vw;
+  padding-bottom: 1vh;
+}
+
+#vendor-search {
+  width: 30vw;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #292929;
+  color: #666666;
+  border: none;
+  padding: 10px;
+  margin-bottom: 5vh;
+}
+
+#vendor-contact {
+  color: #666666;
+}
+
+#address {
+  color: white;
+  display: flex;
+}
+#webicon {
+  margin-right: 30px;
+}
+
+.iconset {
+  padding-right: 6px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #Vendor {
+    flex-direction: column;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #vendor-image {
+    width: 90vw;
+    margin-left: 0;
+  }
+  #vendor-search {
+    width: 90vw;
+  }
+  #vendor-content {
+    margin-top: 3vh;
+
+    margin-left: 25vw;
+    margin-right: 20vw;
+  }
+  #vendor-parah {
+    width: 95vw;
+  }
+} */
+/*
+#FAQ {
+  background-color: #1a1a1a;
+  padding-bottom: 70px;
+}
+
+#faq-content {
+  padding-top: 10vh;
+}
+
+#faq-title {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  font-family: "SFPRODISPLAY";
+}
+
+#faq-parah {
+  color: #666666;
+  text-align: center;
+  font-weight: 500;
+  font-family: "SFPRODISPLAYMEDIUM";
+}
+
+.accordion-item {
+  width: 50vw;
+  border: none;
+}
+
+.accordion-button {
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.font-fix {
+  font-family: "SFPRODISPLAY";
+}
+
+#accordionExample {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  #faq-parah {
+    font-size: 10px;
+  }
+  .accordion-item {
+    width: 95vw;
+  }
+} */
+
+/* #Loosefest-community {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#community-title {
+  color: white;
+  line-height: 1.5;
+  margin-left: 3vw;
+  font-weight: 900;
+  font-family: "SFPRODISPLAY";
+}
+
+#community-parah {
+  color: #666666;
+  margin-left: 3vw;
+  font-weight: 200;
+  font-family: "SFPRODISPLAYMEDIUM";
+  line-height: 1.4;
+  width: 50vw;
+  margin-bottom: 4vh;
+}
+
+#community-button {
+  margin-left: 3vw;
+  width: 260px;
+  height: 48px;
+  background-color: #3592ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+#community-image {
+  width: 40vw;
+  margin-right: 3vw;
+}
+
+@media only screen and (max-width: 1200px) {
+  #Loosefest-community {
+    flex-direction: column-reverse;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #community-image {
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .break {
+    display: none;
+  }
+  #community-title {
+    font-size: 6vw;
+    margin: 11px;
+    margin-top: 3vh;
+  }
+  #community-parah {
+    margin: 11px;
+    width: 95%;
+  }
+  #community-button {
+    width: 95%;
+  }
+} */
