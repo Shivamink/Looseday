@@ -270,6 +270,153 @@
     padding-bottom: 4vh;
   }
 } */
+
+#Stages {
+  background-color: black;
+}
+
+#stage-title {
+  text-align: center;
+  color: white;
+  font-family: "SFPRODISPLAYBOLD";
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+}
+
+#stage-parah {
+  text-align: center;
+  color: #666666;
+  font-family: "SFPRODISPLAYREGULAR";
+  padding-bottom: 5vh;
+}
+
+#stage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7vh;
+}
+
+.stage-card {
+  width: 47vw;
+  height: 100%;
+  margin: 13px;
+  border-radius: 7px;
+  background-color: #1a1a1a;
+  padding-bottom: 3vh;
+}
+
+.card-date {
+  display: flex;
+}
+
+.card-day {
+  color: white;
+  font-family: "SFPRODISPLAY";
+  padding-top: 2vh;
+  padding-left: 1vw;
+}
+
+.card-dateno {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+  padding-top: 5vh;
+  padding-left: 1vw;
+}
+
+/* #stage-cardslide {
+  border: 1px solid red;
+  width: 25vw;
+  height: 35vh;
+} */
+
+#cardslide-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.cardslide-subcontainer {
+  border: 1px solid #666666;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 14vw;
+  height: 8vh;
+  margin: 10px;
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+  font-family: "SFPRODISPLAYBOLD";
+}
+
+.cardslide-time {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+  padding-top: 11px;
+  margin: 0;
+}
+
+.cardslide-address {
+  color: white;
+  font-family: "SFPRODISPLAYMEDIUM";
+}
+
+.carousel-control-prev {
+  bottom: 33vh;
+}
+
+.carousel-control-next {
+  bottom: 33vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  #stage-container {
+    flex-direction: column;
+  }
+  .stage-card {
+    width: 92vw;
+  }
+  .card-day {
+    padding-left: 4vw;
+  }
+  .card-dateno {
+    padding-top: 3vh;
+    padding-left: 4vw;
+  }
+  .carousel-control-prev {
+    bottom: 88%;
+  }
+
+  .carousel-control-next {
+    bottom: 90%;
+  }
+
+  .cardslide-subcontainer {
+    width: 37vw;
+    height: 6vh;
+  }
+  #stage-parah {
+    width: 90vw;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .cardslide-address {
+    font-size: 3vw;
+  }
+  #cardslide-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .cardslide-time {
+    font-size: 3vw;
+  }
+}
+
 /*
 #Amenities {
   background-color: black;
