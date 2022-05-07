@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "SFPRODISPLAYREGULAR";
+  src: local("SFPRODISPLAYREGULAR"),
+    url(../../assets/fonts/SFPRODISPLAYREGULAR.OTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAY";
+  src: local("SFPRODISPLAY"),
+    url(../../assets/fonts/SFPRODISPLAYBOLD.OTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAYMEDIUM";
+  src: local("SFPRODISPLAYMEDIUM"),
+    url(../../assets/fonts/SFPRODISPLAYMEDIUM.OTF) format("truetype");
+}
+#footer {
+  background-color: #0d0d0d;
+}
+
+#footer-container {
+  display: flex;
+}
+
+#footer-content1 {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-left: 2vh;
+}
+
+#content1-parah {
+  color: #666666;
+  font-family: "SFPRODISPLAYREGULAR";
+  margin: 15px;
+  width: 35vw;
+  text-align: center;
+}
+
+#content1-parah2 {
+  color: #666666;
+  font-family: "SFPRODISPLAYREGULAR";
+}
+
+.content1-img {
+  padding-left: 7px;
+}
+
+#footer-content2 {
+  width: 33vw;
+  padding-top: 5vh;
+  padding-left: 2vw;
+}
+
+#footer-card {
+  width: 28vw;
+  height: 15vh;
+  background-color: #141414;
+  display: flex;
+  border-radius: 7px;
+}
+
+#content2-title {
+  color: white;
+  font-family: "SFPRODISPLAY";
+  font-size: 25px;
+  padding-top: 2vh;
+  padding-left: 2vh;
+}
+
+#content2-parah {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+  padding-left: 2vh;
+}
+
+#address {
+  color: white;
+  display: flex;
+  padding-top: 2vh;
+}
+
+#webicon {
+  margin-right: 30px;
+}
+
+.iconset {
+  padding-right: 6px;
+}
+
+#footer-content3 {
+  padding-top: 5vh;
+  padding-left: 0.5vw;
+  padding-right: 3vh;
+  width: 33vw;
+}
+
+#content3-parah {
+  color: white;
+  font-family: "SFPRODISPLAYMEDIUM";
+  font-size: large;
+  width: 25vw;
+}
+
+#content3-parah2 {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+}
+
+#vendor-search {
+  width: 30vw;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #292929;
+  color: #666666;
+  border: none;
+  padding: 10px;
+  margin-bottom: 5vh;
+}
+
+#footer-logos {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.footer-logohandle {
+  padding: 10px;
+}
+
+#footer-finalparah {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+  text-align: center;
+  padding-bottom: 8vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  #footer-container {
+    flex-direction: column;
+  }
+  #content3-parah {
+    width: 93vw;
+    margin: 10px;
+  }
+  #vendor-search {
+    width: 93vw;
+    margin: 10px;
+  }
+
+  #content3-parah2 {
+    width: 93vw;
+    margin: 10px;
+  }
+  #footer-card {
+    width: 95vw;
+  }
+  #content2-title {
+    font-size: 20px;
+  }
+  #address {
+    width: 90vw;
+    margin: 10px;
+  }
+  #footer-content1 {
+    width: 95vw;
+    flex-direction: row;
+  }
+  #content1-parah {
+    width: 90vw;
+    margin: 0;
+  }
+  #content1-parah2 {
+    display: none;
+  }
+}
