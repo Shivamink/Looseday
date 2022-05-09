@@ -270,7 +270,7 @@
     padding-bottom: 4vh;
   }
 } */
-
+/*
 #Stages {
   background-color: black;
 }
@@ -323,12 +323,6 @@
   padding-top: 5vh;
   padding-left: 1vw;
 }
-
-/* #stage-cardslide {
-  border: 1px solid red;
-  width: 25vw;
-  height: 35vh;
-} */
 
 #cardslide-container {
   display: flex;
@@ -414,6 +408,125 @@
   }
   .cardslide-time {
     font-size: 3vw;
+  }
+} */
+
+#Artist {
+  background-color: black;
+}
+
+#artist-title {
+  text-align: center;
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+#artist-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6vh;
+}
+
+#day1button {
+  border: none;
+  background: transparent;
+  color: white;
+  background-color: #1a1a1a;
+  margin: 10px;
+  border-radius: 8px;
+  width: 6vw;
+  height: 4vh;
+}
+
+#day2button {
+  border: none;
+  background: transparent;
+  color: white;
+  background-color: #0275d8;
+  margin: 10px;
+  border-radius: 8px;
+  width: 6vw;
+  height: 4vh;
+}
+
+#artist-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#artist-subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 90vw; */
+}
+
+.artist-social {
+  width: 20vw;
+  height: 45vh;
+}
+
+.artist-content-title {
+  color: white;
+  font-family: "SFPRODISPLAY";
+  font-size: 30px;
+  text-align: center;
+}
+
+.artist-content-stage {
+  color: #666666;
+  font-family: "SFPRODISPLAYMEDIUM";
+  text-align: center;
+}
+
+#artist-social-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#artist-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev {
+  bottom: 15vh;
+}
+
+.carousel-control-next {
+  bottom: 15vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  #hide {
+    display: none;
+  }
+  #day1button {
+    width: 22vw;
+  }
+  #day2button {
+    width: 22vw;
+  }
+  .artist-social {
+    width: 50vw;
+    height: 35vh;
+  }
+  .artist-content-title {
+    font-size: 23px;
+    padding-top: 10px;
+  }
+  .carousel-control-prev {
+    bottom: 10vh;
+  }
+
+  .carousel-control-next {
+    bottom: 10vh;
   }
 }
 
