@@ -23,11 +23,12 @@
     url(../../assets/fonts/SFPRODISPLAYMEDIUM.OTF) format("truetype");
 }
 
-/* #home-video {
+#home-video {
   width: 100%;
-} */
+  display: block;
+}
 
-/* #Information {
+#Information {
   background-color: black;
   padding-bottom: 40px;
 }
@@ -130,7 +131,10 @@
     display: none;
   }
   #mobileset2 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   #info-card1 {
     width: 90vw;
@@ -142,9 +146,9 @@
   #info-cardparah {
     width: 88vw;
   }
-} */
+}
 
-/* #Ticket {
+#Ticket {
   background-color: black;
 }
 
@@ -269,8 +273,8 @@
   #ticket-social {
     padding-bottom: 4vh;
   }
-} */
-/*
+}
+
 #Stages {
   background-color: black;
 }
@@ -360,11 +364,11 @@
   font-family: "SFPRODISPLAYMEDIUM";
 }
 
-.carousel-control-prev {
+#prev {
   bottom: 33vh;
 }
 
-.carousel-control-next {
+#next {
   bottom: 33vh;
 }
 
@@ -382,14 +386,13 @@
     padding-top: 3vh;
     padding-left: 4vw;
   }
-  .carousel-control-prev {
+  #prev {
     bottom: 88%;
   }
 
-  .carousel-control-next {
+  #next {
     bottom: 90%;
   }
-
   .cardslide-subcontainer {
     width: 37vw;
     height: 6vh;
@@ -409,7 +412,7 @@
   .cardslide-time {
     font-size: 3vw;
   }
-} */
+}
 
 #Artist {
   background-color: black;
@@ -462,7 +465,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* width: 90vw; */
 }
 
 .artist-social {
@@ -495,11 +497,11 @@
   align-items: center;
 }
 
-.carousel-control-prev {
+#prev-artist {
   bottom: 15vh;
 }
 
-.carousel-control-next {
+#next-artist {
   bottom: 15vh;
 }
 
@@ -515,22 +517,21 @@
   }
   .artist-social {
     width: 50vw;
-    height: 35vh;
+    height: 42vh;
   }
   .artist-content-title {
     font-size: 23px;
     padding-top: 10px;
   }
-  .carousel-control-prev {
+  #prev-artist {
     bottom: 10vh;
   }
 
-  .carousel-control-next {
+  #next-artist {
     bottom: 10vh;
   }
 }
 
-/*
 #Amenities {
   background-color: black;
 }
@@ -604,9 +605,9 @@
     margin-right: 0;
     margin-bottom: 20px;
   }
-} */
+}
 
-/* #Lastyear {
+#Lastyear {
   background-color: #1a1a1a;
 }
 
@@ -727,9 +728,9 @@
   #lastyear-mobilecontainer {
     padding-bottom: 6vh;
   }
-} */
+}
 
-/* #Vendor {
+#Vendor {
   padding-top: 130px;
   padding-bottom: 130px;
   background-color: black;
@@ -815,8 +816,8 @@
   #vendor-parah {
     width: 95vw;
   }
-} */
-/*
+}
+
 #FAQ {
   background-color: #1a1a1a;
   padding-bottom: 70px;
@@ -868,9 +869,9 @@
   .accordion-item {
     width: 95vw;
   }
-} */
+}
 
-/* #Loosefest-community {
+#Loosefest-community {
   padding-top: 130px;
   padding-bottom: 130px;
   display: flex;
@@ -939,4 +940,4 @@
   #community-button {
     width: 95%;
   }
-} */
+}
