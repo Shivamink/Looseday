@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "SFPRODISPLAYBOLD";
+  src: local("SFPRODISPLAYBOLD"),
+    url(../../assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAYREGULAR";
+  src: local("SFPRODISPLAYREGULAR"),
+    url(../../assets/fonts/SFPRODISPLAYREGULAR.OTF) format("truetype");
+}
+
+#Register {
+  background-color: black;
+}
+
+#Register-title {
+  color: white;
+  font-family: "SFPRODISPLAYBOLD";
+  padding-bottom: 4vh;
+}
+
+#Register-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6vh;
+  padding-bottom: 8vh;
+}
+
+.register-label {
+  color: white;
+  font-family: "SFPRODISPLAYREGULAR";
+  font-size: 11px;
+  padding: 5px;
+  padding-right: 20%;
+}
+
+.more {
+  color: white;
+  font-family: "SFPRODISPLAYREGULAR";
+  font-size: 11px;
+  padding: 5px;
+  padding-right: 22%;
+}
+
+.register-input {
+  width: 25vw;
+  height: 6vh;
+  border-radius: 8px;
+  background-color: #292929;
+  color: #666666;
+  padding-left: 10px;
+  border: none;
+}
+
+#register-text {
+  color: white;
+  font-size: 10px;
+}
+
+#register-span {
+  color: #3592ff;
+}
+
+#register-button {
+  border-radius: 8px;
+  color: white;
+  background-color: #3592ff;
+  width: 25vw;
+  height: 6vh;
+  border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .register-input {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  #register-button {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .register-label {
+    padding-right: 70%;
+  }
+  .more {
+    padding-right: 72%;
+  }
+}
