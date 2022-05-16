@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { RegisterComponent } from './register/register.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
+import { StudentPage1Component } from './student-page1/student-page1.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { EventDetailComponent } from './event-detail/event-detail.component';
     BlogComponent,
     RegisterComponent,
     EventDetailComponent,
+    StudentPage1Component,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
